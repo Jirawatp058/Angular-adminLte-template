@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+/* import overlayscrollbars */
+
+:root {
+    --main-bg-color: #b4d237;
+    --main-color: rgba(255,255,255,.75) ;
+}
+
+.main-header{
+    background-color: var(--main-bg-color) !important;
+    border-color: #8a8f72 !important;
+}
+.main-sidebar{
+    background-color: var(--main-bg-color) !important;
+    color:  var(--main-color) !important;
+}
+
+.navbar-nav .nav-link {
+    color:var(--main-color) !important;
+}
+
+.nav-pills .nav-link {
+    color:var(--main-color) !important;
+}
+/* body {
+    background-color:  #b4d237 !important;
+    
+} */
